@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AOU</string>
+    <!-- relative drawer  -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- relative main menu  -->
+    <string name="log_out">تسجيل الخروج</string>
+
+
+    <!-- relative Register activity layout -->
+    <string name="password">كلمة السر</string>
+    <string name="id">رقم الطالب</string>
+    <string name="email">الايميل</string>
+    <string name="register">التسجيل</string>
+    <string name="forget_password">هل نسيت كلمة السر؟</string>
+
+    <!-- relative error msg layout -->
+    <string name="err_msg_password">كلمة السر غير صالحة</string>
+    <string name="err_msg_id">رقم المستخدم غير صالح</string>
+
+    <!-- relative login activity layout -->
+    <string name="login">تسجيل الدخول</string>
+    <string name="send">ارسال</string>الام
+    <string name="login_not_confirm">رقم الطالب او كلمة السر ليست صحيحة</string>
+
+
+    <!-- relative Contact activity  -->
+    <string name="old_pass">كلمة السر القديمه *</string>
+    <string name="new_pass">كلمة السرالجديدة *</string>
+    <string name="new_pass_again"> كلمة السر الجديدة * (تأكيد)</string>
+
+
+
+
+    <!-- relative Contact activity  -->
+    <string name="name">الاسم</string>
+    <string name="content">المحتوى</string>
+    <string name="date">التأريخ</string>
+
+    <!-- relative menu drawer  -->
+    <string name="courses">المواد الدراسية</string>
+    <string name="contact">التواصل</string>
+    <string name="send_email"> ايميل</string>
+    <string name="setting">اعدادات</string>
+    <string name="change_pass">تغيير كلمة السر</string>
+
+
+    <!-- relative home activity  -->
+    <string name="time_in_aouLMS">الوقت في  AOU LMS</string>
+    <string name="e_library">المكتبة</string>
+    <string name="my_course">المادة الدراسية</string>
+    <string name="admin">ادمن</string>
+
+    <!-- relative courses activity  -->
+    <string name="software_engineering">[TM534]Software Engineering</string>
+    <string name="asp_net">[TM567]Asp.Net</string>
+    <string name="all_courses">جميع المواد الدراسية...</string>
+    <string name="my_courses">المواد الدراسية</string>
+
+    <!-- relative time activity  -->
+    <string name="course">مادة دراسية</string>
+    <string name="time_spend">الوقت المنقضي</string>
+
+    <!-- relative course-outline activity  -->
+    <string name="course_coordinator">منسق المادة</string>
+    <string name="course_calendar">تقويم المادة</string>
+    <string name="course_announcement">اعلانات المادة</string>
+    <string name="course_content">محتوى المادة</string>
+    <string name="forum">المنتدى</string>
+    <string name="assignment">التكليف</string>
+    <string name="support">دعم المواد</string>
+    <string name="academic_bylaws">اللوائح الأكاديمية</string>
+    <string name="e_office">لمكتب</string>
+    <string name="academic_policies">السياسات الأكاديمية</string>
+    <string name="course_grades">درجات الطالب</string>
+    <string name="attendance">الحضور</string>
+    <string name="clms">CLMS </string>
+
+    <!-- relative chat activity  -->
+    <string name="type_msg">طباعة رسالة نصية</string>
+
+    <!-- relative Assignment activity  -->
+    <string name="upload_homework">رفع واجب دراسي </string>
+    <string name="download_homework">تحميل واجب دراسي </string>
+
+    <!-- relative Assignment activity  -->
+    <string name="mta_grades">MTA درجات </string>
+    <string name="tma_grades">TMA درجات </string>
+
+    <string name="home">الصفحة الرئيسية </string>
+    <string name="profile">الصفحة الشخصية </string>
+    <string name="edit_profile">تعديل الصفحة الشخصية </string>
+
+    <string name="list_of_exams"> لائحة الإمتحانات للحصول على درجة البكالوريوس </string>
+    <string name="list_of_bachelor">لائحة للحصول على درجة البكالوريوس </string>
+    <string name="list_of_Master">  لائحة للحصول على درجة الماجستير</string>
+
+    <string name="save">حفظ </string>
+    <string name="cancel">الغاء </string>
+
+    <string name="Country">البلد </string>
+    <string name="town">المنطقة </string>
+    <string name="phone">رقم الموبايل </string>
+    <string name="Remember_me"> تذكرني؟</string>
+    <string name="ksa_news">اخبار المملكة </string>
+    <string name="Language">اللغة </string>
+    <string name="Search_course">البحث عن مادة </string>
+    <string name="Search">البحث  </string>
+    <string name="first_access">اول دخول الى الموقع </string>
+    <string name="last_access">اخر دخول الى الموقع </string>
+    <string name="posts">منشورات </string>
+    <string name="Dascusiion">نقاشات </string>
+    <string name="site_page">الموقع </string>
+    <string name="site_news">اخبار الموقع </string>
+    <string name="Calender">التقويم </string>
+    <string name="forum_post">المنتدى </string>
+    <string name="Academic_Bylaws_and_Academic_policies">اللوائح والسياسات الأكاديمية</string>
+    <string name="files">ملفاتي الخاصة </string>
+
+    <string name="ar">عربي  </string>
+    <string name="en">انجليزي </string>
+    <string name="message">التواصل </string>
+
+
+</resources>

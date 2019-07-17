@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <Button
+        android:id="@+id/btn_cour_announ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:background="#9abfe4"
+        android:drawableLeft="@drawable/news2"
+        android:onClick="click_btn_cour_announ"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:text="Corse Announcement"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="#100f10"
+        android:textSize="18sp"
+        tools:ignore="OnClick" />
+
+</LinearLayout>

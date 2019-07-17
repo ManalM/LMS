@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fbfbfb"
+    tools:context=".started">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="50dp"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_myhome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="@drawable/style_login"
+            android:drawableLeft="@drawable/home1"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:text="@string/home"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:onClick="click_my_home"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/btn_ksanews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="@drawable/style_login"
+            android:drawableLeft="@drawable/news2"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:text="@string/ksa_news"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:onClick="click_ksa_news"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/btn_sis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="@drawable/style_login"
+            android:drawableLeft="@drawable/search"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:text="SIS"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_support"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="@drawable/style_login"
+            android:drawableLeft="@drawable/supporting"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:text="@string/support"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:onClick="click_support"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/btn_languag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="@drawable/style_login"
+            android:drawableLeft="@drawable/langug"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:text="@string/Language"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/group"
+            android:visibility="gone">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/en"
+                android:id="@+id/en"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ar"
+                android:id="@+id/ar"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="@drawable/style_login"
+            android:drawableLeft="@drawable/search"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:text="@string/Search_course"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="2dp"
+            android:id="@+id/searchLayout"
+            android:visibility="gone">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/edtSearch"
+                android:hint="@string/course"/>
+
+            <Button
+                android:id="@+id/search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@drawable/style_login"
+                android:drawableLeft="@drawable/search"
+                android:paddingBottom="5dp"
+                android:paddingStart="20dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="10dp"
+                android:text="@string/Search"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

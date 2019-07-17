@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".my_home">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/bg_rectangle"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/txt_head_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="-5dp"
+            android:background="@drawable/header"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="@string/home"
+            android:textColor="#fff"
+            android:textSize="10pt" />
+
+        <Button
+            android:id="@+id/btn_time_in_aou"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/style_login"
+            android:drawableLeft="@drawable/time_in_aou"
+            android:onClick="click_time_in"
+            android:padding="10dp"
+            android:paddingLeft="10dp"
+            android:text="@string/time_in_aouLMS"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_elibrary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/style_login"
+            android:drawableLeft="@drawable/e_library"
+            android:padding="10dp"
+            android:paddingLeft="10dp"
+            android:onClick="btn_library"
+            android:text="@string/e_library"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_course"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/style_login"
+            android:drawableLeft="@drawable/courses1"
+            android:padding="10dp"
+            android:paddingLeft="10dp"
+            android:text="@string/courses"
+            android:onClick="btn_courses"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </LinearLayout>
+</RelativeLayout>

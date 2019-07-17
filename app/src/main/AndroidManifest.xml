@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.books.lms">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ConfirmPassword"></activity>
+        <activity android:name=".sis_lms_ss">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".course_outlin" />
+        <activity android:name=".assignment" />
+        <activity android:name=".chang_pass" />
+        <activity android:name=".contact" />
+        <activity android:name=".my_home" />
+        <activity android:name=".home" />
+        <activity android:name=".log_in" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".administrating" />
+        <activity android:name=".course_grades" />
+        <activity android:name=".time_in_aou" />
+        <activity android:name=".forget_password" />
+        <activity android:name=".academic_Bylows" />
+        <activity android:name=".attendance" />
+        <activity android:name=".edit_profile" />
+        <activity android:name=".course_coordinator" />
+        <activity android:name=".CourseAnnouncement" />
+        <activity android:name=".CourseCalender" />
+        <activity android:name=".ExamCov" />
+        <activity android:name=".CourseForum" />
+        <activity android:name=".AllCourses" />
+        <activity android:name=".Library" />
+        <activity android:name=".CourseContent" />
+        <activity android:name=".MsgAct" />
+        <activity android:name=".ForumAct" />
+    </application>
+
+</manifest>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".academic_policies">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/bg_rectangle"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+        <TextView
+            android:id="@+id/txt_acd_polic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="25dp"
+
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="-5dp"
+            android:background="#FFA1BF5D"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="@string/academic_bylaws"
+            android:textColor="#fff"
+            android:textSize="10pt"/>
+
+        <Button
+            android:id="@+id/btn_acad_bylaws"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="@drawable/style_login"
+
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:text="@string/academic_bylaws"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            tools:ignore="OnClick"
+            android:onClick="click_acad_Bylaws"/>
+
+        <Button
+            android:id="@+id/btn_acd_polic_proc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="@drawable/style_login"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:text="@string/academic_policies"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btn_other_polices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="@drawable/style_login"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:text=" Other policies , Non academic procedures"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

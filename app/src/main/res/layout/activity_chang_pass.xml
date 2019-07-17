@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fbfbfb"
+    android:gravity="center"
+    tools:context=".chang_pass">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_rectangle"
+        android:layout_margin="10dp"
+        android:paddingBottom="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtError"
+            android:text=""
+            android:textColor="#e61025"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <ImageView
+            android:id="@+id/logo_chang"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="-3dp"
+            android:src="@drawable/logo" />
+
+        <EditText
+            android:id="@+id/edit_curr_pass"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:drawableLeft="@drawable/icon_password"
+            android:hint="@string/old_pass"
+            android:textColor="#000"
+            android:textColorHint="#FF7E7D7D"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/edit_new_pass"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/edit_curr_pass"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:drawableLeft="@drawable/icon_password"
+            android:hint="@string/new_pass"
+
+            android:textColor="#000"
+            android:textColorHint="#FF7E7D7D"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/edit_pass_again"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/edit_new_pass"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+
+            android:layout_marginRight="30dp"
+            android:drawableLeft="@drawable/icon_password"
+            android:hint="@string/new_pass_again"
+            android:textColor="#000"
+            android:textColorHint="#FF7E7D7D"
+            android:textSize="15dp" />
+
+        <LinearLayout
+            android:id="@+id/lin_regis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_pass_again"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="70dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_save_change"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/style_login"
+                android:text="@string/save"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#fff"
+                android:onClick="btn_save"
+                android:textSize="12dp" />
+
+            <Button
+                android:id="@+id/btn_cancle_change"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/style_login"
+                android:text="@string/cancel"
+                android:onClick="btn_cancel"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#fff"
+                android:textSize="12dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

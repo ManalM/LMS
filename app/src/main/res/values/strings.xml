@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">AOU</string>
+    <!-- relative drawer  -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- relative main menu  -->
+    <string name="log_out">Log Out</string>
+
+
+    <!-- relative Register activity layout -->
+    <string name="password">PASSWORD</string>
+    <string name="id">Student ID</string>
+    <string name="email">Email</string>
+    <string name="register">REGISTER</string>
+    <string name="forget_password">FORGET YOUR PASSWORD?</string>
+
+    <!-- relative error msg layout -->
+    <string name="err_msg_password">password is not valid</string>
+    <string name="err_msg_id">student id is not valid</string>
+
+    <!-- relative login activity layout -->
+    <string name="login">LOGIN</string>
+    <string name="send">Send</string>
+    <string name="login_not_confirm">Student Id Or Password Is Not Correct</string>
+
+
+    <!-- relative Contact activity  -->
+    <string name="old_pass">Old Password *</string>
+    <string name="new_pass">New Password *</string>
+    <string name="new_pass_again">New Password * (Again)</string>
+
+
+    <!-- relative Contact activity  -->
+    <string name="name">Name</string>
+    <string name="content">Content</string>
+    <string name="date">Date</string>
+
+    <!-- relative menu drawer  -->
+    <string name="courses">Courses</string>
+    <string name="contact">Contact</string>
+    <string name="send_email">Send Email</string>
+    <string name="setting">Setting</string>
+    <string name="change_pass">Change Password</string>
+
+
+    <!-- relative home activity  -->
+    <string name="time_in_aouLMS">Time In AOU LMS</string>
+    <string name="e_library">E-Library</string>
+    <string name="my_course">My course</string>
+    <string name="admin">Administration</string>
+
+    <!-- relative courses activity  -->
+    <string name="software_engineering">[TM534]Software Engineering</string>
+    <string name="asp_net">[TM567]Asp.Net</string>
+    <string name="all_courses">ALL COURSES...</string>
+    <string name="my_courses">My COURSES</string>
+
+    <!-- relative time activity  -->
+    <string name="course">Course</string>
+    <string name="time_spend">Time Spend</string>
+
+    <!-- relative course-outline activity  -->
+    <string name="course_coordinator">Course Coordinator</string>
+    <string name="course_calendar">Course Calendar</string>
+    <string name="course_announcement">Course Announcement</string>
+    <string name="course_content">Course Content</string>
+    <string name="forum">Forum</string>
+    <string name="assignment">Assignment</string>
+    <string name="support">Supporting Material</string>
+    <string name="academic_bylaws">Academic Bylaws</string>
+    <string name="e_office">E-office Hours for ITC</string>
+    <string name="academic_policies">Academic Policies</string>
+    <string name="course_grades">Course Grades</string>
+    <string name="attendance">Attendance</string>
+    <string name="clms">CLMS </string>
+
+    <!-- relative chat activity  -->
+    <string name="type_msg">Type Message </string>
+
+    <!-- relative Assignment activity  -->
+    <string name="upload_homework">Upload Homework </string>
+    <string name="download_homework">Download Homework </string>
+
+    <!-- relative Assignment activity  -->
+    <string name="mta_grades">MTA Grades </string>
+    <string name="tma_grades">TMA Grades </string>
+
+    <string name="home">Home </string>
+    <string name="profile">Profile </string>
+    <string name="edit_profile">Edit Profile </string>
+
+    <string name="list_of_exams">List of exams for a bachelor degree </string>
+    <string name="list_of_bachelor">List for a bachelor degree</string>
+    <string name="list_of_Master"> List for a Masters Degree</string>
+
+    <string name="save">Save  </string>
+    <string name="cancel">Cancel </string>
+    <string name="Country">Country </string>
+    <string name="town">Town </string>
+    <string name="phone">phone </string>
+    <string name="MTA_Exam_Coverage">MTA Exam Coverage </string>
+    <string name="Remember_me">Remember me? </string>
+
+    <string name="ksa_news">Ksa News </string>
+    <string name="Language">Language </string>
+    <string name="Search_course">Search course </string>
+    <string name="Search">Search  </string>
+    <string name="first_access">First access to site  </string>
+    <string name="last_access">Last access to site  </string>
+
+    <string name="site_page">Site Page </string>
+    <string name="site_news">Site News </string>
+    <string name="Calender">Calender </string>
+    <string name="forum_post">Forum Post </string>
+    <string name="posts">Posts </string>
+    <string name="Dascusiion">Dascusiions </string>
+
+    <string name="Academic_Bylaws_and_Academic_policies">Academic Bylaws and Academic policies </string>
+    <string name="message">Message </string>
+    <string name="files">My Private Files </string>
+
+    <string name="ar">Arabic </string>
+    <string name="en">English </string>
+
+</resources>
